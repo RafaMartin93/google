@@ -1,0 +1,125 @@
+body{
+    background:#fff;
+}
+
+body,input,button{
+    font-size: 14px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+/*** START HEADER ***/
+
+.header{
+    overflow: hidden;
+    padding: 6px;
+}
+
+.header a{
+    float: left;
+    color:#303030;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header a:hover{
+    text-decoration: underline;
+}
+
+.header-right{
+    float:right;
+}
+
+.header-right .header-right__menu-apps{
+    padding: 10px 0 0 0;
+}
+
+.header-right .header-right__profile-link{
+    padding-top: 6px;
+}
+
+.header-right .header-right__profile-img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+/*** END HEADER ***/
+
+/*** START CONTAINER ***/
+.container{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.container__logo__google{
+    width: 272px;
+}
+
+.container__busqueda{
+    padding:20px;
+}
+
+.container__busqueda .container__busqueda__input{
+    text-align: center;
+    width: 584px;
+    height: 46px;
+    border: 1px solid #252525;
+    border-radius: 24px;
+    margin: 0 160px;
+    
+}
+
+.container__busqueda .container__busqueda__input .fa-magnifying-glass{
+    float: left;
+    margin: 13px 0 0 13px;
+    padding-right: 13px;
+}
+
+.container__busqueda .container__busqueda__input .fa-microphone{
+    float: right;
+    margin: 10px 0 0 13px;
+    padding-right: 13px;
+}
+
+.container__busqueda__input-search{
+    float: left;
+    margin: 3px 0;
+    width: 483px;
+    height: 34px;
+    background: transparent;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+.fa-magnifying-glass{
+    font-size: 18px;
+}
+.fa-microphone{
+    font-size: 25px;
+}
+
+.container__buttons button{
+    background-color: #e7e7e7;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    color: #303134;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+/*** END CONTAINER ***/
+
