@@ -58,11 +58,11 @@ body,input,button{
     width: 272px;
 }
 
-.container__busqueda{
+.container__search{
     padding:20px;
 }
 
-.container__busqueda .container__busqueda__input{
+.container__search .container__search__input{
     text-align: center;
     width: 584px;
     height: 46px;
@@ -72,19 +72,19 @@ body,input,button{
     
 }
 
-.container__busqueda .container__busqueda__input .fa-magnifying-glass{
+.container__search .container__search__input .fa-magnifying-glass{
     float: left;
-    margin: 13px 0 0 13px;
+    margin: 14px 0 0 13px;
     padding-right: 13px;
 }
 
-.container__busqueda .container__busqueda__input .fa-microphone{
+.container__search .container__search__input .fa-microphone{
     float: right;
     margin: 10px 0 0 13px;
     padding-right: 13px;
 }
 
-.container__busqueda__input-search{
+.container__search__input-search{
     float: left;
     margin: 3px 0;
     width: 483px;
@@ -104,6 +104,10 @@ input:focus{
     font-size: 25px;
 }
 
+.container__buttons{
+    height: 70px;
+}
+
 .container__buttons button{
     background-color: #e7e7e7;
     border: 1px solid #e7e7e7;
@@ -119,6 +123,15 @@ input:focus{
     text-align: center;
     cursor: pointer;
     user-select: none;
+}
+
+.container__link-language a{
+    text-decoration: none;
+    padding: 0 3px;
+}
+
+.container__link-language a:hover{
+    text-decoration: underline;
 }
 
 /*** END CONTAINER ***/
